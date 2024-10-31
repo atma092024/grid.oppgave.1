@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+    gap: 20px;
+}
+
 body {
     font-family: "Karla", serif;
     font-size: 16px;
@@ -66,4 +73,8 @@ button {
 
 .attribution {
     color: rgb(59, 59, 59);
+}
+
+#price {
+    font-size: 1.5em;
 }
