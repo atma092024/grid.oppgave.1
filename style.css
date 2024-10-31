@@ -15,23 +15,25 @@ body {
     font-family: "Karla", serif;
     font-size: 16px;
     font-weight: 400;
-    height: 100vh;
     display: flex;
-    flex-direction: column;
+    height: 100vh;
     align-items: center;
     justify-content: center;
 }
 
 h1 {
     color: hsl(179, 62%, 43%);
+    padding-bottom: 25px;
 }
 
 h2 {
     color: hsl(71, 73%, 54%);
+    padding-bottom: 15px;
 }
 
 h3 {
     color: white;
+    padding-bottom: 15px;
 }
 
 p {
@@ -40,18 +42,33 @@ p {
 
 ul {
     color: white;
-}
-
-.community-para {
-    color: hsl(218, 22%, 67%);
-}
-
-#community-box {
     
 }
 
+#join-box {
+    padding: 20px;
+}
+
+#join-para {
+    color: hsl(214, 15%, 73%)
+}
+
+
 #subscription-box {
     background-color: hsl(179, 62%, 43%);
+    padding: 30px;
+}
+
+#price {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+#per-month {
+    font-weight: 50;
+    opacity: 0.7;
+    text-align: center;
 }
 
 button {
@@ -66,15 +83,12 @@ button {
 
 #why-us-box {
     list-style-type: none; /* Removes the bullets */
-    padding: 0;           /* Removes the default padding */
-    margin: 0;            /* Removes the default margin */
+    padding: 40px;           /* Removes the default padding */
     background-color:  hsla(179, 62%, 43%, 0.89);
 }
 
-.attribution {
-    color: rgb(59, 59, 59);
+ul {
+    list-style: none;
 }
 
-#price {
-    font-size: 1.5em;
-}
+
