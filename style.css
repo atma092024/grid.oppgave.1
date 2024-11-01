@@ -12,13 +12,35 @@ main {
 }
 
 body {
+    background-color: hsl(204, 43%, 93%);
     font-family: "Karla", serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     display: flex;
     height: 100vh;
     align-items: center;
     justify-content: center;
+}
+
+main {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  /* overflow: hidden; */
+  max-width: 700px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+header {
+  padding: 2em;
+  text-align: left;
+  grid-column: span 2;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 h1 {
@@ -29,6 +51,7 @@ h1 {
 h2 {
     color: hsl(71, 73%, 54%);
     padding-bottom: 15px;
+    font-size: 17px;
 }
 
 h3 {
@@ -36,9 +59,6 @@ h3 {
     padding-bottom: 15px;
 }
 
-p {
-   color: hsl(204, 43%, 93%)
-}
 
 ul {
     color: white;
@@ -46,11 +66,13 @@ ul {
 }
 
 #join-box {
-    padding: 20px;
+    background-color: white;
 }
 
 #join-para {
-    color: hsl(214, 15%, 73%)
+    color:  hsl(179, 62%, 43%);
+    letter-spacing: 1px;
+    padding-bottom: 30px;
 }
 
 
@@ -60,15 +82,26 @@ ul {
 }
 
 #price {
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: bold;
     padding-bottom: 25px;
+    color: hsl(0, 0%, 100%)
+
 }
 
 #per-month {
     font-weight: 50;
     opacity: 0.7;
     text-align: center;
+    color: hsl(0, 0%, 100%)
+
+}
+
+#full-access {
+    margin-top: 10px;
+    opacity: 0.7;
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 20px;
 }
 
 button {
@@ -79,16 +112,25 @@ button {
     width: 175px;
     border-radius: 3px;
     font-weight: 700;
+    box-shadow: 10px black;
+    cursor: pointer;
+
 }
 
 #why-us-box {
-    list-style-type: none; /* Removes the bullets */
-    padding: 40px;           /* Removes the default padding */
-    background-color:  hsla(179, 62%, 43%, 0.89);
+    background-color:  hsla(179, 71%, 45%, 0.89);
 }
 
 ul {
     list-style: none;
+    opacity: 0.7;
+    line-height: 20px;
+    list-style-type: none;
 }
 
+#subscription-box,
+#why-us-box {
+    padding: 2em;
+    color: white;
+}
 
