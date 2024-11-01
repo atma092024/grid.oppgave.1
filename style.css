@@ -4,20 +4,14 @@
     box-sizing: border-box;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    max-width: 375px;
-    gap: 20px;
-}
 
 body {
     background-color: hsl(204, 43%, 93%);
     font-family: "Karla", serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     align-items: center;
     justify-content: center;
 }
@@ -26,7 +20,6 @@ main {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  /* overflow: hidden; */
   max-width: 700px;
   width: 100%;
   display: grid;
@@ -70,7 +63,7 @@ ul {
 }
 
 #join-para {
-    color:  hsl(179, 62%, 43%);
+    color:  hsl(218, 22%, 67%);
     letter-spacing: 1px;
     padding-bottom: 30px;
 }
@@ -79,12 +72,14 @@ ul {
 #subscription-box {
     background-color: hsl(179, 62%, 43%);
     padding: 30px;
+    flex: 1;
+    margin: 0;
+    border-bottom-left-radius: 10px;
 }
 
 #price {
     font-size: 1.7em;
     font-weight: bold;
-    padding-bottom: 25px;
     color: hsl(0, 0%, 100%)
 
 }
@@ -92,8 +87,9 @@ ul {
 #per-month {
     font-weight: 50;
     opacity: 0.7;
-    text-align: center;
-    color: hsl(0, 0%, 100%)
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 25px;
+
 
 }
 
@@ -119,6 +115,9 @@ button {
 
 #why-us-box {
     background-color:  hsla(179, 71%, 45%, 0.89);
+    flex: 1;
+    margin: 0;
+    border-bottom-right-radius: 10px;
 }
 
 ul {
